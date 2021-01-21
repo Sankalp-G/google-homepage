@@ -35,6 +35,39 @@ svg {
     border: none;
 }
 
-.search-icon {
-    
+header {
+    float: inline-end;
+    padding: 10px;
+    display: flex;
+    align-content: center;
 }
+
+.more-logo {
+    color: black;
+    width: 17px;
+    height: 17px;
+    opacity: 50%;
+    display: flex;
+    align-self: center;
+    padding: 10px;
+}
+
+.userimg {
+    border: transparent solid;
+    border-radius: 50%;
+    display: flex;
+    align-self: center;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(49, 48, 48) !important;
+}
+
+.nav-links {
+    padding: 10px;
+    font-size: 13px;
+}
+
