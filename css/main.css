@@ -1,7 +1,17 @@
+
+
+.centerpiece {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 190px;
+    padding-left: 250px;
+}
+
 .logo {
-    position: absolute;
-    top: 20.2vh;
-    left: 42.9vw;
+    position: relative;
+    padding-bottom: 20px;
 }
 
 .search {
@@ -11,12 +21,11 @@
     border: 1px solid;
     border-radius: 24px;
     border-color: rgb(223, 225, 229);
-    position: absolute;
-    top: 32vh;
-    left: 35vw;
+    position: relative;
     width: 582px;
     height: 32px;
     padding: 5px;
+    font-size: 16px;
 }
 
 svg {
@@ -37,7 +46,7 @@ svg {
 
 header {
     float: inline-end;
-    padding: 10px;
+    padding: 5px;
     display: flex;
     align-content: center;
 }
@@ -57,7 +66,7 @@ header {
     border-radius: 50%;
     display: flex;
     align-self: center;
-    margin-right: 20px;
+    margin-right: 15px;
     margin-left: 10px;
 }
 
