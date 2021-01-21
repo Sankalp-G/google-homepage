@@ -5,13 +5,13 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-top: 190px;
-    padding-left: 250px;
+    margin: 100px;
+    padding: 40px;
 }
 
 .logo {
     position: relative;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }
 
 .search {
@@ -25,7 +25,6 @@
     width: 582px;
     height: 32px;
     padding: 5px;
-    font-size: 16px;
 }
 
 svg {
@@ -42,6 +41,11 @@ svg {
     width: 550px;
     background-color: transparent;
     border: none;
+    font-size: 16px;
+}
+
+.header-div{
+    height: 50px;
 }
 
 header {
