@@ -32,6 +32,7 @@ svg {
     position: relative;
     color: #9aa0a6;
     fill: currentColor;
+    left: 3px;
     width: 20px;
     height: 20px;
     padding: 6px;
@@ -76,7 +77,7 @@ header {
 
 a {
     text-decoration: none;
-    color: rgb(49, 48, 48) !important;
+    color: rgb(49, 48, 48);
 }
 
 .nav-links {
@@ -105,3 +106,10 @@ a {
     margin-bottom: 10px;
 }
 
+.lang-links{
+    color: rgb(26, 13, 171) !important;
+}
+
+.lang-links:hover {
+    text-decoration: underline;
+}
