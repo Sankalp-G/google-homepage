@@ -113,3 +113,26 @@ a {
 .lang-links:hover {
     text-decoration: underline;
 }
+
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(242, 242, 242);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.54);
+    line-height: 40px;
+    border-top: 1px #dadce0 solid;
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+.footer-links {
+    color:  rgba(0, 0, 0, 0.54) !important;
+    padding-left: 27px;
+}
+
+.footer-links:hover {
+    text-decoration: underline;
+}
