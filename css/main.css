@@ -27,6 +27,10 @@
     padding: 5px;
 }
 
+.search:hover{
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
+
 svg {
     display: flex;
     position: relative;
@@ -66,6 +70,10 @@ header {
     padding: 10px;
 }
 
+.more-logo:hover {
+    opacity: 70%;
+}
+
 .userimg {
     border: transparent solid;
     border-radius: 50%;
@@ -86,6 +94,10 @@ a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.nav-links:hover {
+    text-decoration: underline;
+}
+
 .belowsearch {
     display: flex;
     flex-direction: row;
@@ -104,6 +116,13 @@ a {
     margin-left: 8px;
     margin-right: 8px;
     margin-bottom: 10px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.belowsearch-items:hover {
+    border: 1px #dadce0 solid;
+    padding-bottom: 8px;
 }
 
 .lang-links{
